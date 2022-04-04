@@ -1,0 +1,3 @@
+"Uperoleia_laevigata_MM1227 is not in alignment Myobatrachidae_L222_NT replacing with sequence from Rheobatrachus_vitellinus_105698"
+"Uperoleia_laevigata_MM1227 is not in alignment Myobatrachidae_L234_NT replacing with sequence from Philoria_sphagnicola_25832"
+"Uperoleia_laevigata_MM1227 is not in alignment Myobatrachidae_L83_NT replacing with sequence from Rheobatrachus_vitellinus_105698"
