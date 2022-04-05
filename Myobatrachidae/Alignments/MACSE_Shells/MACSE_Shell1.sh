@@ -1,0 +1,24 @@
+cd /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L1.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L10.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L100.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L101.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L102.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L103.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L104.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L105.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L106.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L107.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L108.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L109.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L11.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L110.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L111.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L112.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L113.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L114.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L115.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+java -jar /Applications/macse_v2.03.jar -prog refineAlignment -align /Users/ianbrennan/Documents/GitHub/Crown_Frogs/Myobatrachidae/Original_Alignments/Myobatrachidae_L116.fasta -optim 1 -local_realign_init 0.1 -local_realign_dec 0.1 -fs 10
+echo finished batch 1 of 16
+perl -pi -w -e 's/!/N/g;' *.fasta
+exit 0
