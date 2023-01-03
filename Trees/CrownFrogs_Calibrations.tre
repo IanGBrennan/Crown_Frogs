@@ -1,0 +1,201 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=99;
+	taxlabels
+	Adelotus_brevis_24210
+	Alytidae_Alytes_obstetricans_MVZ_231914
+	Aphantophryne_pansa
+	Arenophryne_rotunda_114066
+	Ascaphidae_Ascaphus_montanus_I13520
+	Assa_darlingtoni_136278
+	Austrochaperina_gracilipes_2
+	Austrochaperina_guttata
+	Austrochaperina_robusta
+	Barygenys_flavigularis
+	Bombinatoridae_Bombina_microdeladigitora_CAS_242112
+	Bryobatrachus_nimbus_25297
+	Callulops_doriae
+	Calyptocephalella_gayi
+	Ceratophrys_cornuta_MVZ247561
+	Cophixalus_balbus
+	Cophixalus_bewaniensis
+	Cophixalus_crepitans
+	Cophixalus_hosmeri_3
+	Cophixalus_infacetus
+	Cophixalus_parkeri
+	Copiula_pipilans
+	Crinia_signifera_25676
+	Cruziohyla_calcarifer
+	Cyclorana_cultripes_16892
+	Dyscophus_guineti
+	Genyophryne_thomsoni
+	Geocrinia_alba_106079
+	Heleioporus_australiacus_I5549
+	Heleophryne_purcelli
+	Heleophrynidae_Heleophryne_purcelli_SANBI_1954
+	Hylidae_Dendropsophus_microcephalus_MVZ_264263
+	Hylidae_Pseudacris_nigrita_I13522
+	Hylidae_Pseudis_paradoxa_LSUMNS_12511
+	Hylidae_Scinax_staufferi_MVZ_257781
+	Hylidae_Smilisca_fodiens_YPM_014191
+	Hylophorbus_rainerguntheri
+	Hypsiboas_crepitans_YPM10666
+	Kalophrynus_interlineatus
+	Kaloula_picta
+	Lechriodus_fletcheri_24892
+	Limnodynastes_dumerilii_104299
+	Liophryne_rhododactyla
+	Litoria_adelaidensis_28282
+	Litoria_andiirrmalin
+	Litoria_angiana_48210
+	Litoria_brevipalmata_127632
+	Litoria_burrowsi_17631
+	Litoria_citropa_7146
+	Litoria_dahlii_102434
+	Litoria_dentata_100638
+	Litoria_dorsalis_79181
+	Litoria_fallax_102409
+	Litoria_genimaculata_42824
+	Litoria_gilleni_30786
+	Litoria_infrafrenata_86210
+	Litoria_raniformis_12854
+	Litoria_revelata_80814
+	Litoria_thesaurensis_50489
+	Litoria_tornieri_11777
+	Litoria_tyleri_3925
+	Litoria_wilcoxii_16804
+	Litoria_xanthomera_102385
+	Megophryidae_Leptolalax_bourreti_AMCC_106489
+	Metacrinia_nichollsi_17124
+	Microhyla_berdmorei
+	Microhylidae_Plethodontohyla_notosticta_AMCC_128714
+	Mixophyes_balbus_25323
+	Mixophyes_hihihorlo_45861
+	Myobatrachus_gouldii_156759
+	Neobatrachus_albipes_I5481
+	Notaden_nichollsi_70661
+	Nyctimystes_dayi_15997
+	Nyctimystes_disrupta_48225
+	Opisthodon_ornatus_15543
+	Oreophryne_brachypus
+	Osteopilus_dominicensis_MCZA148702
+	Otophryne_robusta
+	Paracrinia_haswelli_26441
+	Pelobatidae_Pelobates_syriacus_MVZ_234650
+	Pelodytidae_Pelodytes_ibericus_MVZ_186009
+	Philoria_sphagnicola_25832
+	Phrynobatrachus_keniensis
+	Phrynomantis_annectens
+	Phyllomedusa_vallantii
+	Pipidae_Pipa_pipa_MVZ_247511
+	Pseudophryne_major_16479
+	Ptychadena_mascareniensis
+	Rheobatrachus_silus_7324
+	Rheobatrachus_vitellinus_105698
+	Rhinophrynidae_Rhinophrynus_dorsalis_MVZ_164756
+	Scaphiophryne_brevis
+	Scaphiopodidae_Spea_hammondii_MVZ_145187
+	Spicospina_flammocaerulea_144371
+	Stefania_evansi_BPN1286
+	Stereocyclops_incrassatus
+	Taudactylus_liemi_50947
+	Uperoleia_laevigata_MM1227
+	Xenopus_tropicalis_genome
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Ascaphidae_Ascaphus_montanus_I13520:1.0,((Bombinatoridae_Bombina_microdeladigitora_CAS_242112:1.0,Alytidae_Alytes_obstetricans_MVZ_231914:1.0)[&label=">1.25<2.52"]:1.0,((Rhinophrynidae_Rhinophrynus_dorsalis_MVZ_164756:1.0,(Pipidae_Pipa_pipa_MVZ_247511:1.0,Xenopus_tropicalis_genome:1.0)[&label=">0.836<1.481"]:1.0)[&label=">1.272<2.52"]:1.0,((Scaphiopodidae_Spea_hammondii_MVZ_145187:1.0,(Pelodytidae_Pelodytes_ibericus_MVZ_186009:1.0,(Megophryidae_Leptolalax_bourreti_AMCC_106489:1.0,Pelobatidae_Pelobates_syriacus_MVZ_234650:1.0)[&label=">0.281<1.481"]:1.0)[&label=">0.389<1.481"]:1.0)[&label=">0.461<1.481"]:1.0,((Heleophryne_purcelli:1.0,Heleophrynidae_Heleophryne_purcelli_SANBI_1954:1.0):1.0,(((Ptychadena_mascareniensis:1.0,Phrynobatrachus_keniensis:1.0)[&label=">0.25<1.481"]:1.0,((Phrynomantis_annectens:1.0,(Otophryne_robusta:1.0,Stereocyclops_incrassatus:1.0):1.0):1.0,((Scaphiophryne_brevis:1.0,Microhylidae_Plethodontohyla_notosticta_AMCC_128714:1.0):1.0,(Kalophrynus_interlineatus:1.0,((Dyscophus_guineti:1.0,(Kaloula_picta:1.0,Microhyla_berdmorei:1.0):1.0):1.0,((Liophryne_rhododactyla:1.0,(Callulops_doriae:1.0,Hylophorbus_rainerguntheri:1.0):1.0):1.0,(((Genyophryne_thomsoni:1.0,Barygenys_flavigularis:1.0):1.0,(Copiula_pipilans:1.0,(Austrochaperina_guttata:1.0,(Austrochaperina_gracilipes_2:1.0,Austrochaperina_robusta:1.0):1.0):1.0):1.0):1.0,(Oreophryne_brachypus:1.0,((Aphantophryne_pansa:1.0,Cophixalus_parkeri:1.0):1.0,(Cophixalus_balbus:1.0,(Cophixalus_bewaniensis:1.0,(Cophixalus_crepitans:1.0,(Cophixalus_infacetus:1.0,Cophixalus_hosmeri_3:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0)[&label=">0.339<1.481"]:1.0,((Calyptocephalella_gayi:1.0,((((Rheobatrachus_silus_7324:1.0,Rheobatrachus_vitellinus_105698:1.0):1.0,(Mixophyes_balbus_25323:1.0,Mixophyes_hihihorlo_45861:1.0):1.0):1.0,((Lechriodus_fletcheri_24892:1.0,Opisthodon_ornatus_15543:1.0):1.0,((Heleioporus_australiacus_I5549:1.0,Neobatrachus_albipes_I5481:1.0):1.0,(Notaden_nichollsi_70661:1.0,(Limnodynastes_dumerilii_104299:1.0,(Philoria_sphagnicola_25832:1.0,Adelotus_brevis_24210:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(Taudactylus_liemi_50947:1.0,((Paracrinia_haswelli_26441:1.0,(Geocrinia_alba_106079:1.0,Assa_darlingtoni_136278:1.0):1.0):1.0,((Bryobatrachus_nimbus_25297:1.0,Crinia_signifera_25676:1.0):1.0,((Spicospina_flammocaerulea_144371:1.0,Uperoleia_laevigata_MM1227:1.0):1.0,(Pseudophryne_major_16479:1.0,(Metacrinia_nichollsi_17124:1.0,(Arenophryne_rotunda_114066:1.0,Myobatrachus_gouldii_156759:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0)[&label=">0.475<1.481"]:1.0,(Stefania_evansi_BPN1286:1.0,(Ceratophrys_cornuta_MVZ247561:1.0,((Hypsiboas_crepitans_YPM10666:1.0,(Osteopilus_dominicensis_MCZA148702:1.0,(Hylidae_Scinax_staufferi_MVZ_257781:1.0,((Hylidae_Pseudacris_nigrita_I13522:1.0,Hylidae_Smilisca_fodiens_YPM_014191:1.0):1.0,(Hylidae_Pseudis_paradoxa_LSUMNS_12511:1.0,Hylidae_Dendropsophus_microcephalus_MVZ_264263:1.0):1.0):1.0):1.0):1.0):1.0,((Cruziohyla_calcarifer:1.0,Phyllomedusa_vallantii:1.0):1.0,(((Litoria_citropa_7146:1.0,Nyctimystes_dayi_15997:1.0):1.0,((Litoria_genimaculata_42824:1.0,(Litoria_wilcoxii_16804:1.0,Litoria_andiirrmalin:1.0):1.0):1.0,((Litoria_xanthomera_102385:1.0,Litoria_gilleni_30786:1.0):1.0,(Litoria_raniformis_12854:1.0,(Litoria_thesaurensis_50489:1.0,(Litoria_dahlii_102434:1.0,Cyclorana_cultripes_16892:1.0):1.0):1.0):1.0):1.0):1.0):1.0,((Litoria_infrafrenata_86210:1.0,(Litoria_brevipalmata_127632:1.0,Nyctimystes_disrupta_48225:1.0):1.0):1.0,(((Litoria_revelata_80814:1.0,Litoria_burrowsi_17631:1.0):1.0,(Litoria_tyleri_3925:1.0,Litoria_dentata_100638:1.0):1.0):1.0,(Litoria_dorsalis_79181:1.0,(Litoria_adelaidensis_28282:1.0,(Litoria_tornieri_11777:1.0,(Litoria_angiana_48210:1.0,Litoria_fallax_102409:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0)[&label=">0.66<1.481"]:1.0)[&label=">1.13<2.52"]:1.0)[&label=">1.481<2.52"]:1.0):1.0)[&label=">1.297<2.52"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#ffa18a;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Helvetica";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=455;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="Helvetica";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Helvetica";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
