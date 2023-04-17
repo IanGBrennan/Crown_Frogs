@@ -1,0 +1,9 @@
+num	ab1	desc	notes
+1	AF	Africa
+2	EU	Europe
+3	AS	Asia	
+4	SA	SouthAmerica	South America
+5	NN	NorthAmerica	North America
+6	MA	Madagascar
+7	AP	AustraloPapua	Australo-Papua
+8	AT	Antarctica

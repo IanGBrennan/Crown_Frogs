@@ -1,35 +1,35 @@
-﻿Group,Species,Kind,CrownAge,Origin
-Christinus,3,Reptilia,15,Africa
-Taphozoinae,9,Mammalia,10,Africa
-Eugongylini,145,Reptilia,35,Asia
-Nactus,4,Reptilia,30,Asia
-Sphenomorphini,297,Reptilia,28,Asia
-Agamidae,115,Reptilia,27,Asia
-Pythonidae,18,Reptilia,24,Asia
-Varanidae,33,Reptilia,24,Asia
-Typhlopidae,49,Reptilia,22,Asia
-Tiliquini,62,Reptilia,21,Asia
-Gehyra,51,Reptilia,20,Asia
-Elapidae,144,Reptilia,17,Asia
-Cyrtodactylus,7,Reptilia,14,Asia
-Cophixalus,18,Amphibia,11,Asia
-Austrochaperina,5,Amphibia,11,Asia
-Podargus,3,Aves,10,Asia
-Heteronotia,5,Reptilia,8,Asia
-Pteropodinae,10,Mammalia,7,Asia
-Hydromyini,50,Mammalia,6,Asia
-Acrochordidae,2,Reptilia,3,Asia
-Rattini,12,Mammalia,2,Asia
-Ranidae,1,Amphibia,2,Asia
-Maluridae,98,Aves,37,Australia
-Melaphagidae,144,Aves,31,Australia
-Psittaculidae,40,Aves,30,Australia
-Cacatuidae,17,Aves,23,Australia
-Pardalotidae,4,Aves,10,Australia
-Myobatrachoidea,136,Amphibia,80,Gondwana
-Limnodynastidae,66,Amphibia,77,Gondwana
-Australidelphia,286,Mammalia,68,Gondwana
-Pygopodoidea,189,Reptilia,65,Gondwana
-Chelidae,25,Reptilia,64,Gondwana
-Myobatrachidae,70,Amphibia,46,Gondwana
-Pelodryadidae,91,Amphibia,30,South America
+﻿Group,Species,Kind,CrownAge,Origin,Citation
+Christinus,3,Reptilia,15,Africa,"Zheng & Wiens. 2015. Combining phylogenomic and supermatrix approaches, and a time-calibrated phylogeny for squamate reptiles based on 52 genes and 4162 species"
+Taphozoinae,9,Mammalia,10,Africa,Ruedi et al. 2012. Biogeography of Old World emballonurine bats (Chiroptera: Emballonuridae) inferred with mitochondrial and nuclear DNA
+Eugongylini,145,Reptilia,35,Asia,Oliver & Hugall. 2017. Phylogenetic evidence for mid-Cenozoic turnover of a diverse continental biota
+Nactus,4,Reptilia,30,Asia,Oliver & Hugall. 2017. Phylogenetic evidence for mid-Cenozoic turnover of a diverse continental biota
+Sphenomorphini,297,Reptilia,28,Asia,Oliver & Hugall. 2017. Phylogenetic evidence for mid-Cenozoic turnover of a diverse continental biota
+Agamidae,115,Reptilia,27,Asia,Oliver & Hugall. 2017. Phylogenetic evidence for mid-Cenozoic turnover of a diverse continental biota
+Pythonidae,18,Reptilia,24,Asia,"Esquerré et al. 2020. Phylogenomics, biogeography, and morphometrics reveal rapid phenotypic evolution in pythons after crossing Wallace's line"
+Varanidae,33,Reptilia,24,Asia,Brennan et al. 2021. Phylogenomics of lizards and the role of competition in dictating body size disparity
+Typhlopidae,49,Reptilia,22,Asia,Tiatragul et al. 2023. Australia's hidden radiation: phylogenomics analysis reveals rapid Miocene  radiation of blindsnakes
+Tiliquini,62,Reptilia,21,Asia,Brennan et al. in prep. Evolutionary bursts drive morphological novelty in a continental radiation of skinks
+Gehyra,51,Reptilia,20,Asia,Heinicke et al. 2011. Phylogeny of a trans-Wallacean radiation supports a single early colonization of Australia
+Elapidae,144,Reptilia,17,Asia,Oliver & Hugall. 2017. Phylogenetic evidence for mid-Cenozoic turnover of a diverse continental biota
+Cyrtodactylus,7,Reptilia,14,Asia,Oliver et al. 2014. Crossing the line: increasing body size in a trans-Wallacean lizard radiation
+Cophixalus,18,Amphibia,11,Asia,This manuscript
+Austrochaperina,5,Amphibia,11,Asia,This manuscript
+Podargus,3,Aves,10,Asia,Oliver et al. 2020. Oligocene divergence of frogmouth birds across Wallace's line
+Heteronotia,5,Reptilia,8,Asia,Pepper et al. 2013. Speciation on the rocks: integrated systematics of the Heteronotia spelea species complex from Western and Central Australia
+Pteropodinae,10,Mammalia,7,Asia,"Tsang et al. 2020. Dispersal out of Wallacea spurs diversification of Pteropus flying foxes, the world’s largest bats (Mammalia: Chiroptera)"
+Hydromyini,50,Mammalia,6,Asia,Roycroft et al. 2022. New Guinea uplift opens ecological opportunity across a continent
+Acrochordidae,2,Reptilia,3,Asia,"Zheng & Wiens. 2015. Combining phylogenomic and supermatrix approaches, and a time-calibrated phylogeny for squamate reptiles based on 52 genes and 4162 species"
+Rattini,12,Mammalia,2,Asia,Rowe et al. 2019. Oceanic islands of Wallacea as a source for dispersal and diversification of murine rodents
+Ranidae,1,Amphibia,2,Asia,"Chan et al. 2020. Larger, unfiltered datasets are more effective at resolving phylogenetic conflict: introns, exons, and UCEs resolve ambiguities in Golden-backed frogs; Reilly et al. 2022. Phylogenetic relationships of southern Wallacean ranid frogs."
+Maluridae,98,Aves,37,Australia,Marki et al. 2017. Supermatrix phylogeny and biogeography of the Australiasian Meliphagides radiation
+Melaphagidae,144,Aves,31,Australia,Marki et al. 2017. Supermatrix phylogeny and biogeography of the Australiasian Meliphagides radiation
+Psittaculidae,40,Aves,30,Australia,Provost et al. 2018. Resolving a phylogenetic hypothesis for parrots: implications from systematics to conservation
+Cacatuidae,17,Aves,23,Australia,Provost et al. 2018. Resolving a phylogenetic hypothesis for parrots: implications from systematics to conservation
+Pardalotidae,4,Aves,10,Australia,Provost et al. 2018. Resolving a phylogenetic hypothesis for parrots: implications from systematics to conservation
+Myobatrachoidea,136,Amphibia,80,Gondwana,This manuscript
+Limnodynastidae,66,Amphibia,77,Gondwana,This manuscript
+Australidelphia,286,Mammalia,68,Gondwana,Duchêne et al. 2017. Analysis of phylogenomic tree space resolves relationships among marsupial families
+Pygopodoidea,189,Reptilia,65,Gondwana,Brennan & Oliver. 2016. Mass turnover and recovery dynamics of a diverse Australian continental radiation
+Chelidae,25,Reptilia,64,Gondwana,Selvatti et al. 2023. Phylogenomics reconciles molecular data with the rich fossil record on the origin of living turtles
+Myobatrachidae,70,Amphibia,46,Gondwana,This manuscript
+Pelodryadidae,91,Amphibia,30,South America,This manuscript
