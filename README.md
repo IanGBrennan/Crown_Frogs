@@ -2,47 +2,42 @@
 
 ## Directories  
 A general guide to the directories and files contained in this repository.  
+Each directory includes a summary of the associated files.  
 
 ___
 
-### Alignments
+### [Alignments](https://github.com/IanGBrennan/Crown_Frogs/tree/main/Alignments)
 + Individual, concatenated, and codon partitioned alignments
-+ see README for file specifics
 
 ___
 
-### Biogeography
+### [Biogeography](https://github.com/IanGBrennan/Crown_Frogs/tree/main/Biogeography)
 + Input and output files from BioGeoBEARS analyses
-+ see README for file specifics
 
 ___
 
-### Figures
+### [Figures](https://github.com/IanGBrennan/Crown_Frogs/tree/main/Figures)
 + Main text figures, supplementary figures, and components
-+ see README for file specifics
+
 ___
 
-### Heterotachy
+### [Heterotachy](https://github.com/IanGBrennan/Crown_Frogs/tree/main/Heterotachy)
 + IQTREE results of GHOST model under varied H classes
-+ see README for file specifics
 
 ___
 
-### Manuscript
+### [Manuscript](https://github.com/IanGBrennan/Crown_Frogs/tree/main/Manuscript)
 + All original and revised manuscript files
-+ see README for file specifics
 
 ___
 
-### Scripts
+### [Scripts](https://github.com/IanGBrennan/Crown_Frogs/tree/main/Scripts)
 + Code for analyzing data and generating figures
-+ see README for file specifics
 
 ___
 
-### Trees
+### [Trees](https://github.com/IanGBrennan/Crown_Frogs/tree/main/Trees)
 + All resulting tree files
-+ see README for file specifics
 
 
 
