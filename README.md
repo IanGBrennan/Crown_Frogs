@@ -2,9 +2,9 @@
 Documentation for *Populating a Continent: Phylogenomics Reveal the Timing of Australian Frog Diversification*  
 
 This project focuses on the phylogenetics and timing of Australian frog diversification. If you're here, you've probably already read the paper. But, in short, we ask three basic questions:  
-(1) Where did Australia’s frogs originate?  
-(2) When did they get to Australia?
-(3) Who and where are their closest relatives? 
++ (1) Where did Australia’s frogs originate?  
++ (2) When did they get to Australia?  
++ (3) Who and where are their closest relatives? 
 
 ![FrogImage](Figures/Illustration_Mixophyes_balbus_small.png)
 
