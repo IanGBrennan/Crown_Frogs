@@ -6,7 +6,7 @@ This project focuses on the phylogenetics and timing of Australian frog diversif
 (2) When did they get to Australia?
 (3) Who and where are their closest relatives? 
 
-![FrogImage](Figures/Illustration_Mixophyes_balbus.png)
+![FrogImage](Figures/Illustration_Mixophyes_balbus_small.png)
 
 ## Directories  
 A general guide to the directories and files contained in this repository.  
