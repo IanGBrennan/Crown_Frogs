@@ -1,0 +1,297 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: ../Alignments/CrownFrogs_Concat.phy
+User tree file name: Crown_Oz_ASTRAL.tre
+Type of analysis: tree reconstruction
+Random seed number: 366809
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 99 sequences with 523035 nucleotide sites
+Number of constant sites: 247310 (= 47.2836% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 247310 (= 47.2836% of all sites)
+Number of parsimony informative sites: 212902
+Number of distinct site patterns: 283486
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 1.2090
+  A-G: 3.2981
+  A-T: 1.0632
+  C-G: 0.8959
+  C-T: 4.3152
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2993
+  pi(C) = 0.2271
+  pi(G) = 0.22
+  pi(T) = 0.2536
+
+Rate matrix Q:
+
+  A   -0.8707    0.1883    0.4975    0.1849
+  C    0.2482    -1.134    0.1351    0.7505
+  G    0.6769    0.1395   -0.9904    0.1739
+  T    0.2182     0.672    0.1508    -1.041
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -7426111.1451 (s.e. 11740.4475)
+Unconstrained log-likelihood (without tree): -5751143.2068
+Number of free parameters (#branches + #model parameters): 203
+Akaike information criterion (AIC) score: 14852628.2902
+Corrected Akaike information criterion (AICc) score: 14852628.4486
+Bayesian information criterion (BIC) score: 14854895.2731
+
+Total tree length (sum of branch lengths): 4.0765
+Sum of internal branch lengths: 1.1645 (28.5670% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Adelotus_brevis_24210' is drawn at root
+
++----Adelotus_brevis_24210
+|
+|                                                   +-----------Alytidae_Alytes_obstetricans_MVZ_231914
+|                                               +---| (38.8)
+|                                               |   +------------Bombinatoridae_Bombina_microdeladigitora_CAS_242112
+|                                            +--| (56.1)
+|                                            |  +------------Ascaphidae_Ascaphus_montanus_I13520
+|                                         +--| (23.5)
+|                                         |  |        +-------------Pipidae_Pipa_pipa_MVZ_247511
+|                                         |  |  +-----| (26.8)
+|                                         |  |  |     +--------------Xenopus_tropicalis_genome
+|                                         |  +--| (25.2)
+|                                         |     +----------Rhinophrynidae_Rhinophrynus_dorsalis_MVZ_164756
+|                                 +-------| (33.4)
+|                                 |       |            +--------------Megophryidae_Leptolalax_bourreti_AMCC_106489
+|                                 |       |        +---| (37.8)
+|                                 |       |        |   +---------Pelobatidae_Pelobates_syriacus_MVZ_234650
+|                                 |       |     +--| (35.3)
+|                                 |       |     |  +------------Pelodytidae_Pelodytes_ibericus_MVZ_186009
+|                                 |       +-----| (59.6)
+|                                 |             +---------------Scaphiopodidae_Spea_hammondii_MVZ_145187
+|                              +--| (43.1)
+|                              |  |       +--Heleophryne_purcelli
+|                              |  +-------| (68.2)
+|                              |          +--Heleophrynidae_Heleophryne_purcelli_SANBI_1954
+|                           +--| (38.2)
+|                           |  |                                        +--Aphantophryne_pansa
+|                           |  |                                     +--| (35.9)
+|                           |  |                                     |  +--Cophixalus_parkeri
+|                           |  |                                  +--| (36.4)
+|                           |  |                                  |  |  +--Cophixalus_balbus
+|                           |  |                                  |  +--| (40.8)
+|                           |  |                                  |     |  +--Cophixalus_bewaniensis
+|                           |  |                                  |     +--| (38.7)
+|                           |  |                                  |        |  +--Cophixalus_crepitans
+|                           |  |                                  |        +--| (34.1)
+|                           |  |                                  |           |  +--Cophixalus_hosmeri_3
+|                           |  |                                  |           +--| (33.7)
+|                           |  |                                  |              +--Cophixalus_infacetus
+|                           |  |                               +--| (36.1)
+|                           |  |                               |  +--Oreophryne_brachypus
+|                           |  |                            +--| (34.8)
+|                           |  |                            |  |           +--Austrochaperina_gracilipes_2
+|                           |  |                            |  |        +--| (34.9)
+|                           |  |                            |  |        |  +--Austrochaperina_robusta
+|                           |  |                            |  |     +--| (38.3)
+|                           |  |                            |  |     |  +--Austrochaperina_guttata
+|                           |  |                            |  |  +--| (35.7)
+|                           |  |                            |  |  |  +--Copiula_pipilans
+|                           |  |                            |  +--| (36.1)
+|                           |  |                            |     |  +--Barygenys_flavigularis
+|                           |  |                            |     +--| (47.1)
+|                           |  |                            |        +--Genyophryne_thomsoni
+|                           |  |                       +----| (71.8)
+|                           |  |                       |    |     +--Callulops_doriae
+|                           |  |                       |    |  +--| (44)
+|                           |  |                       |    |  |  +--Hylophorbus_rainerguntheri
+|                           |  |                       |    +--| (29.6)
+|                           |  |                       |       +--Liophryne_rhododactyla
+|                           |  |                    +--| (34)
+|                           |  |                    |  |  +----Dyscophus_guineti
+|                           |  |                    |  +--| (41.1)
+|                           |  |                    |     |  +------Kaloula_picta
+|                           |  |                    |     +--| (32.4)
+|                           |  |                    |        +-----------Microhyla_berdmorei
+|                           |  |                 +--| (47.2)
+|                           |  |                 |  +---------Kalophrynus_interlineatus
+|                           |  |              +--| (17)
+|                           |  |              |  |  +----Microhylidae_Plethodontohyla_notosticta_AMCC_128714
+|                           |  |              |  +--| (62.8)
+|                           |  |              |     +------Scaphiophryne_brevis
+|                           |  |      +-------| (30.9)
+|                           |  |      |       |     +----Otophryne_robusta
+|                           |  |      |       |  +--| (33.9)
+|                           |  |      |       |  |  +-------Stereocyclops_incrassatus
+|                           |  |      |       +--| (64)
+|                           |  |      |          +------Phrynomantis_annectens
+|                           |  +------| (38.4)
+|                           |         |    +----------Phrynobatrachus_keniensis
+|                           |         +----| (67.9)
+|                           |              +---------Ptychadena_mascareniensis
+|                        +--| (40.1)
+|                        |  |             +----Ceratophrys_cornuta_MVZ247561
+|                        |  |          +--| (25.3)
+|                        |  |          |  |        +--Cruziohyla_calcarifer
+|                        |  |          |  |     +--| (71)
+|                        |  |          |  |     |  +---Phyllomedusa_vallantii
+|                        |  |          |  |  +--| (37.9)
+|                        |  |          |  |  |  |                    +--Cyclorana_cultripes_16892
+|                        |  |          |  |  |  |                 +--| (36)
+|                        |  |          |  |  |  |                 |  +--Litoria_dahlii_102434
+|                        |  |          |  |  |  |              +--| (38.1)
+|                        |  |          |  |  |  |              |  +--Litoria_thesaurensis_50489
+|                        |  |          |  |  |  |           +--| (38.9)
+|                        |  |          |  |  |  |           |  +--Litoria_raniformis_12854
+|                        |  |          |  |  |  |        +--| (34)
+|                        |  |          |  |  |  |        |  |  +--Litoria_gilleni_30786
+|                        |  |          |  |  |  |        |  +--| (41.8)
+|                        |  |          |  |  |  |        |     +--Litoria_xanthomera_102385
+|                        |  |          |  |  |  |     +--| (33.8)
+|                        |  |          |  |  |  |     |  |     +--Litoria_andiirrmalin
+|                        |  |          |  |  |  |     |  |  +--| (35.8)
+|                        |  |          |  |  |  |     |  |  |  +--Litoria_wilcoxii_16804
+|                        |  |          |  |  |  |     |  +--| (35.4)
+|                        |  |          |  |  |  |     |     +--Litoria_genimaculata_42824
+|                        |  |          |  |  |  |  +--| (43.4)
+|                        |  |          |  |  |  |  |  |  +--Litoria_citropa_7146
+|                        |  |          |  |  |  |  |  +--| (36.4)
+|                        |  |          |  |  |  |  |     +--Nyctimystes_dayi_15997
+|                        |  |          |  |  |  +--| (47.2)
+|                        |  |          |  |  |     |           +--Litoria_adelaidensis_28282
+|                        |  |          |  |  |     |        +--| (33.6)
+|                        |  |          |  |  |     |        |  |     +--Litoria_angiana_48210
+|                        |  |          |  |  |     |        |  |  +--| (48.8)
+|                        |  |          |  |  |     |        |  |  |  +--Litoria_fallax_102409
+|                        |  |          |  |  |     |        |  +--| (34.1)
+|                        |  |          |  |  |     |        |     +---Litoria_tornieri_11777
+|                        |  |          |  |  |     |     +--| (44.2)
+|                        |  |          |  |  |     |     |  +---Litoria_dorsalis_79181
+|                        |  |          |  |  |     |  +--| (40)
+|                        |  |          |  |  |     |  |  |     +--Litoria_burrowsi_17631
+|                        |  |          |  |  |     |  |  |  +--| (34.5)
+|                        |  |          |  |  |     |  |  |  |  +--Litoria_revelata_80814
+|                        |  |          |  |  |     |  |  +--| (38.5)
+|                        |  |          |  |  |     |  |     |  +--Litoria_dentata_100638
+|                        |  |          |  |  |     |  |     +--| (37.4)
+|                        |  |          |  |  |     |  |        +--Litoria_tyleri_3925
+|                        |  |          |  |  |     +--| (34.5)
+|                        |  |          |  |  |        |     +--Litoria_brevipalmata_127632
+|                        |  |          |  |  |        |  +--| (35.9)
+|                        |  |          |  |  |        |  |  +--Nyctimystes_disrupta_48225
+|                        |  |          |  |  |        +--| (39.8)
+|                        |  |          |  |  |           +--Litoria_infrafrenata_86210
+|                        |  |          |  +--| (32.8)
+|                        |  |          |     |              +-----Hylidae_Dendropsophus_microcephalus_MVZ_264263
+|                        |  |          |     |           +--| (33.5)
+|                        |  |          |     |           |  +-----Hylidae_Pseudis_paradoxa_LSUMNS_12511
+|                        |  |          |     |        +--| (34.2)
+|                        |  |          |     |        |  |  +---Hylidae_Pseudacris_nigrita_I13522
+|                        |  |          |     |        |  +--| (38.4)
+|                        |  |          |     |        |     +---Hylidae_Smilisca_fodiens_YPM_014191
+|                        |  |          |     |     +--| (68.6)
+|                        |  |          |     |     |  +------Hylidae_Scinax_staufferi_MVZ_257781
+|                        |  |          |     |  +--| (27.9)
+|                        |  |          |     |  |  +----Osteopilus_dominicensis_MCZA148702
+|                        |  |          |     +--| (43.9)
+|                        |  |          |        +-----Hypsiboas_crepitans_YPM10666
+|                        |  +----------| (70)
+|                        |             +---Stefania_evansi_BPN1286
+|                     +--| (61.3)
+|                     |  +-----Calyptocephalella_gayi
+|                  +--| (32.8)
+|                  |  |                     +--Arenophryne_rotunda_114066
+|                  |  |                  +--| (31)
+|                  |  |                  |  +--Myobatrachus_gouldii_156759
+|                  |  |               +--| (41.3)
+|                  |  |               |  +--Metacrinia_nichollsi_17124
+|                  |  |            +--| (42.4)
+|                  |  |            |  +--Pseudophryne_major_16479
+|                  |  |         +--| (35.1)
+|                  |  |         |  |  +--Spicospina_flammocaerulea_144371
+|                  |  |         |  +--| (35.4)
+|                  |  |         |     +--Uperoleia_laevigata_MM1227
+|                  |  |      +--| (35)
+|                  |  |      |  |  +--Bryobatrachus_nimbus_25297
+|                  |  |      |  +--| (41.8)
+|                  |  |      |     +---Crinia_signifera_25676
+|                  |  |   +--| (38.6)
+|                  |  |   |  |     +--Assa_darlingtoni_136278
+|                  |  |   |  |  +--| (40.5)
+|                  |  |   |  |  |  +--Geocrinia_alba_106079
+|                  |  |   |  +--| (40)
+|                  |  |   |     +--Paracrinia_haswelli_26441
+|                  |  +---| (44.4)
+|                  |      +---Taudactylus_liemi_50947
+|           +------| (53.6)
+|           |      |     +--Mixophyes_balbus_25323
+|           |      |  +--| (42.8)
+|           |      |  |  +--Mixophyes_hihihorlo_45861
+|           |      +--| (33.7)
+|           |         |      +--Rheobatrachus_silus_7324
+|           |         +------| (58.5)
+|           |                +--Rheobatrachus_vitellinus_105698
+|        +--| (34.9)
+|        |  |     +--Lechriodus_fletcheri_24892
+|        |  +-----| (52.1)
+|        |        +---Opisthodon_ornatus_15543
+|     +--| (34.5)
+|     |  |  +--Heleioporus_australiacus_I5549
+|     |  +--| (36.5)
+|     |     +---Neobatrachus_albipes_I5481
+|  +--| (38.9)
+|  |  +-----Notaden_nichollsi_70661
++--| (36.3)
+|  +---Limnodynastes_dumerilii_104299
+|
++---Philoria_sphagnicola_25832
+
+Tree in newick format:
+
+(Adelotus_brevis_24210:0.0356818835,((((((((((((((Alytidae_Alytes_obstetricans_MVZ_231914:0.0775500782,Bombinatoridae_Bombina_microdeladigitora_CAS_242112:0.0890541472)38.8:0.0291908520,Ascaphidae_Ascaphus_montanus_I13520:0.0828769261)56.1:0.0178982746,((Pipidae_Pipa_pipa_MVZ_247511:0.0898743705,Xenopus_tropicalis_genome:0.0971357310)26.8:0.0429107143,Rhinophrynidae_Rhinophrynus_dorsalis_MVZ_164756:0.0750204575)25.2:0.0215847772)23.5:0.0141322753,(((Megophryidae_Leptolalax_bourreti_AMCC_106489:0.1001422771,Pelobatidae_Pelobates_syriacus_MVZ_234650:0.0651190958)37.8:0.0299268009,Pelodytidae_Pelodytes_ibericus_MVZ_186009:0.0841388396)35.3:0.0167856615,Scaphiopodidae_Spea_hammondii_MVZ_145187:0.1019729565)59.6:0.0394167754)33.4:0.0521094494,(Heleophryne_purcelli:0.0010205308,Heleophrynidae_Heleophryne_purcelli_SANBI_1954:0.0028348987)68.2:0.0523213632)43.1:0.0159264002,((((((((((Aphantophryne_pansa:0.0119095238,Cophixalus_parkeri:0.0075337202)35.9:0.0011443389,(Cophixalus_balbus:0.0154430684,(Cophixalus_bewaniensis:0.0176349402,(Cophixalus_crepitans:0.0124143245,(Cophixalus_hosmeri_3:0.0109726830,Cophixalus_infacetus:0.0119431261)33.7:0.0006605290)34.1:0.0012447945)38.7:0.0032934092)40.8:0.0039582264)36.4:0.0020412058,Oreophryne_brachypus:0.0236235218)36.1:0.0015956301,((((Austrochaperina_gracilipes_2:0.0173524428,Austrochaperina_robusta:0.0089860844)34.9:0.0024060284,Austrochaperina_guttata:0.0096671654)38.3:0.0040042701,Copiula_pipilans:0.0166138548)35.7:0.0026966274,(Barygenys_flavigularis:0.0135802479,Genyophryne_thomsoni:0.0171280927)47.1:0.0023948797)36.1:0.0008916380)34.8:0.0008623470,((Callulops_doriae:0.0073357224,Hylophorbus_rainerguntheri:0.0149620493)44:0.0046059037,Liophryne_rhododactyla:0.0093343395)29.6:0.0004506490)71.8:0.0349945762,(Dyscophus_guineti:0.0333757379,(Kaloula_picta:0.0473352459,Microhyla_berdmorei:0.0805639344)32.4:0.0099809513)41.1:0.0033257015)34:0.0065766116,Kalophrynus_interlineatus:0.0677482856)47.2:0.0024494373,(Microhylidae_Plethodontohyla_notosticta_AMCC_128714:0.0359553315,Scaphiophryne_brevis:0.0476269193)62.8:0.0049033572)17:0.0012792525,((Otophryne_robusta:0.0357252720,Stereocyclops_incrassatus:0.0539495757)33.9:0.0051124757,Phrynomantis_annectens:0.0452552418)64:0.0012137935)30.9:0.0510929019,(Phrynobatrachus_keniensis:0.0709691360,Ptychadena_mascareniensis:0.0637294785)67.9:0.0361267572)38.4:0.0491509068)38.2:0.0137243228,((Ceratophrys_cornuta_MVZ247561:0.0368091132,(((Cruziohyla_calcarifer:0.0171189108,Phyllomedusa_vallantii:0.0257326583)71:0.0209243829,(((((((Cyclorana_cultripes_16892:0.0132411573,Litoria_dahlii_102434:0.0154077195)36:0.0015618377,Litoria_thesaurensis_50489:0.0142365033)38.1:0.0035581833,Litoria_raniformis_12854:0.0084769357)38.9:0.0040086953,(Litoria_gilleni_30786:0.0089019113,Litoria_xanthomera_102385:0.0113021157)41.8:0.0054553629)34:0.0007036110,((Litoria_andiirrmalin:0.0073914802,Litoria_wilcoxii_16804:0.0124728181)35.8:0.0021185155,Litoria_genimaculata_42824:0.0182315951)35.4:0.0014857748)33.8:0.0003599524,(Litoria_citropa_7146:0.0113783310,Nyctimystes_dayi_15997:0.0131578872)36.4:0.0008772061)43.4:0.0082049444,((((Litoria_adelaidensis_28282:0.0149890967,((Litoria_angiana_48210:0.0137152172,Litoria_fallax_102409:0.0162451631)48.8:0.0114869070,Litoria_tornieri_11777:0.0261508031)34.1:0.0019772792)33.6:0.0014094660,Litoria_dorsalis_79181:0.0269499596)44.2:0.0065005015,((Litoria_burrowsi_17631:0.0065895216,Litoria_revelata_80814:0.0178199054)34.5:0.0010097144,(Litoria_dentata_100638:0.0158208211,Litoria_tyleri_3925:0.0095073779)37.4:0.0033514061)38.5:0.0037209069)40:0.0052418530,((Litoria_brevipalmata_127632:0.0143535816,Nyctimystes_disrupta_48225:0.0165643411)35.9:0.0014916343,Litoria_infrafrenata_86210:0.0105155254)39.8:0.0053147076)34.5:0.0019575984)47.2:0.0079328725)37.9:0.0112079472,(((((Hylidae_Dendropsophus_microcephalus_MVZ_264263:0.0395575115,Hylidae_Pseudis_paradoxa_LSUMNS_12511:0.0399781506)33.5:0.0052539765,(Hylidae_Pseudacris_nigrita_I13522:0.0296671458,Hylidae_Smilisca_fodiens_YPM_014191:0.0304668829)38.4:0.0180169170)34.2:0.0041936094,Hylidae_Scinax_staufferi_MVZ_257781:0.0470467960)68.6:0.0031129401,Osteopilus_dominicensis_MCZA148702:0.0365026298)27.9:0.0045598588,Hypsiboas_crepitans_YPM10666:0.0444057891)43.9:0.0127297470)32.8:0.0036408857)25.3:0.0037606832,Stefania_evansi_BPN1286:0.0257618829)70:0.0725040469)40.1:0.0123889300,Calyptocephalella_gayi:0.0390661014)61.3:0.0214038767,(((((((Arenophryne_rotunda_114066:0.0080480015,Myobatrachus_gouldii_156759:0.0073164180)31:0.0006794526,Metacrinia_nichollsi_17124:0.0064934114)41.3:0.0065818912,Pseudophryne_major_16479:0.0120116597)42.4:0.0134588290,(Spicospina_flammocaerulea_144371:0.0145114781,Uperoleia_laevigata_MM1227:0.0208464731)35.4:0.0041311672)35.1:0.0035666271,(Bryobatrachus_nimbus_25297:0.0178898641,Crinia_signifera_25676:0.0297798266)41.8:0.0132285105)35:0.0039680480,((Assa_darlingtoni_136278:0.0180987560,Geocrinia_alba_106079:0.0112355954)40.5:0.0113005559,Paracrinia_haswelli_26441:0.0226033711)40:0.0109114963)38.6:0.0106874858,Taudactylus_liemi_50947:0.0314607585)44.4:0.0274092448)32.8:0.0034184363,((Mixophyes_balbus_25323:0.0240840751,Mixophyes_hihihorlo_45861:0.0222660032)42.8:0.0194430211,(Rheobatrachus_silus_7324:0.0125222882,Rheobatrachus_vitellinus_105698:0.0105669362)58.5:0.0485966666)33.7:0.0037657658)53.6:0.0471564469,(Lechriodus_fletcheri_24892:0.0147034666,Opisthodon_ornatus_15543:0.0260992977)52.1:0.0422946680)34.9:0.0062419042,(Heleioporus_australiacus_I5549:0.0229448887,Neobatrachus_albipes_I5481:0.0279261520)36.5:0.0063821879)34.5:0.0046709888,Notaden_nichollsi_70661:0.0433203398)38.9:0.0112930469,Limnodynastes_dumerilii_104299:0.0301976841)36.3:0.0075362277,Philoria_sphagnicola_25832:0.0304219239);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t sCF_gCF_GTR.treefile -m "GTR{1.20903,3.2981,1.06321,0.895865,4.31516}+F{0.299304,0.227104,0.219963,0.253629}" --length 523035
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ../Alignments/CrownFrogs_Concat.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ../Alignments/CrownFrogs_Concat.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 15 11:39:12 2023
+Total CPU time used: 215.45315 seconds (0h:3m:35s)
+Total wall-clock time used: 1441.9451 seconds (0h:24m:1s)
+

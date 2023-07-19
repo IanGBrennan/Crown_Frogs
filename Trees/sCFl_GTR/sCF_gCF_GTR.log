@@ -1,0 +1,186 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Mac OS X 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    IanANU.local (SSE4.2, 16 GB RAM)
+Command: /Applications/iqtree-2.2.2.6-MacOSX/bin/iqtree2 -te Crown_Oz_ASTRAL.tre -s ../Alignments/CrownFrogs_Concat.phy --scfl 1000 -m GTR --prefix sCF_gCF_GTR
+Seed:    366809 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun 15 11:15:06 2023
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ../Alignments/CrownFrogs_Concat.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 1.21439 secs using 83.88% CPU
+WARNING: 2360 sites contain only gaps or ambiguous characters.
+Alignment has 99 sequences with 523035 columns, 283486 distinct patterns
+212902 parsimony-informative, 62823 singleton sites, 247310 constant sites
+                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.259386 secs using 97.42% CPU
+   1  Adelotus_brevis_24210                                 38.83%    failed      0.17%
+   2  Alytidae_Alytes_obstetricans_MVZ_231914               55.95%    failed      0.00%
+   3  Aphantophryne_pansa                                   16.38%    failed      0.00%
+   4  Arenophryne_rotunda_114066                            36.31%    passed     35.75%
+   5  Ascaphidae_Ascaphus_montanus_I13520                   54.65%    failed      0.00%
+   6  Assa_darlingtoni_136278                               43.29%    failed      2.53%
+   7  Austrochaperina_gracilipes_2                          17.12%    failed      0.00%
+   8  Austrochaperina_guttata                               19.10%    failed      0.00%
+   9  Austrochaperina_robusta                               15.12%    failed      0.00%
+  10  Barygenys_flavigularis                                18.41%    failed      0.00%
+  11  Bombinatoridae_Bombina_microdeladigitora_CAS_242112   70.05%    failed      0.00%
+  12  Bryobatrachus_nimbus_25297                            36.05%    failed      3.20%
+  13  Callulops_doriae                                      21.52%    failed      0.00%
+  14  Calyptocephalella_gayi                                50.10%    failed      0.00%
+  15  Ceratophrys_cornuta_MVZ247561                         28.55%    failed      0.00%
+  16  Cophixalus_balbus                                     15.10%    failed      0.00%
+  17  Cophixalus_bewaniensis                                17.03%    failed      0.12%
+  18  Cophixalus_crepitans                                  15.00%    failed      0.00%
+  19  Cophixalus_hosmeri_3                                  14.63%    failed      0.00%
+  20  Cophixalus_infacetus                                  16.70%    failed      0.00%
+  21  Cophixalus_parkeri                                    15.28%    failed      0.00%
+  22  Copiula_pipilans                                      16.56%    failed      0.00%
+  23  Crinia_signifera_25676                                34.21%    failed      0.20%
+  24  Cruziohyla_calcarifer                                 42.91%    failed      0.00%
+  25  Cyclorana_cultripes_16892                             20.64%    failed      0.01%
+  26  Dyscophus_guineti                                     49.39%    failed      0.02%
+  27  Genyophryne_thomsoni                                  19.17%    failed      0.07%
+  28  Geocrinia_alba_106079                                 34.41%    failed      1.88%
+  29  Heleioporus_australiacus_I5549                        37.01%    failed      0.00%
+  30  Heleophryne_purcelli                                  50.12%    failed      0.00%
+  31  Heleophrynidae_Heleophryne_purcelli_SANBI_1954        49.48%    failed      0.00%
+  32  Hylidae_Dendropsophus_microcephalus_MVZ_264263        48.74%    failed      0.00%
+  33  Hylidae_Pseudacris_nigrita_I13522                     50.92%    failed      0.00%
+  34  Hylidae_Pseudis_paradoxa_LSUMNS_12511                 48.52%    failed      0.00%
+  35  Hylidae_Scinax_staufferi_MVZ_257781                   48.49%    failed      0.00%
+  36  Hylidae_Smilisca_fodiens_YPM_014191                   48.94%    failed      0.00%
+  37  Hylophorbus_rainerguntheri                            16.26%    failed      0.00%
+  38  Hypsiboas_crepitans_YPM10666                          30.41%    failed      0.00%
+  39  Kalophrynus_interlineatus                             24.17%    failed      0.06%
+  40  Kaloula_picta                                         24.28%    failed      0.00%
+  41  Lechriodus_fletcheri_24892                            38.31%    failed      0.00%
+  42  Limnodynastes_dumerilii_104299                        37.51%    passed     33.40%
+  43  Liophryne_rhododactyla                                16.29%    failed      0.02%
+  44  Litoria_adelaidensis_28282                            23.36%    passed     17.00%
+  45  Litoria_andiirrmalin                                  26.12%    failed      0.00%
+  46  Litoria_angiana_48210                                 24.68%    passed     57.55%
+  47  Litoria_brevipalmata_127632                           22.05%    failed      0.00%
+  48  Litoria_burrowsi_17631                                24.09%    failed      0.00%
+  49  Litoria_citropa_7146                                  20.30%    failed      0.00%
+  50  Litoria_dahlii_102434                                 20.71%    failed      0.00%
+  51  Litoria_dentata_100638                                20.77%    failed      1.66%
+  52  Litoria_dorsalis_79181                                22.96%    failed      0.00%
+  53  Litoria_fallax_102409                                 25.75%    failed      0.03%
+  54  Litoria_genimaculata_42824                            20.78%    failed      1.18%
+  55  Litoria_gilleni_30786                                 20.29%    failed      0.00%
+  56  Litoria_infrafrenata_86210                            21.79%    failed      0.00%
+  57  Litoria_raniformis_12854                              20.06%    failed      0.00%
+  58  Litoria_revelata_80814                                19.96%    passed     24.68%
+  59  Litoria_thesaurensis_50489                            19.97%    failed      0.00%
+  60  Litoria_tornieri_11777                                22.41%    failed      0.00%
+  61  Litoria_tyleri_3925                                   20.35%    failed      0.04%
+  62  Litoria_wilcoxii_16804                                20.12%    failed      0.00%
+  63  Litoria_xanthomera_102385                             20.15%    passed      9.75%
+  64  Megophryidae_Leptolalax_bourreti_AMCC_106489          54.72%    failed      0.00%
+  65  Metacrinia_nichollsi_17124                            39.25%    passed     52.12%
+  66  Microhyla_berdmorei                                   24.70%    failed      0.00%
+  67  Microhylidae_Plethodontohyla_notosticta_AMCC_128714   48.48%    failed      3.47%
+  68  Mixophyes_balbus_25323                                34.12%    failed      0.18%
+  69  Mixophyes_hihihorlo_45861                             34.02%    failed      0.00%
+  70  Myobatrachus_gouldii_156759                           43.22%    failed      2.85%
+  71  Neobatrachus_albipes_I5481                            36.29%    failed      0.00%
+  72  Notaden_nichollsi_70661                               37.84%    failed      0.03%
+  73  Nyctimystes_dayi_15997                                20.09%    failed      0.00%
+  74  Nyctimystes_disrupta_48225                            20.79%    failed      0.00%
+  75  Opisthodon_ornatus_15543                              39.44%    failed      0.00%
+  76  Oreophryne_brachypus                                  16.31%    failed      0.00%
+  77  Osteopilus_dominicensis_MCZA148702                    27.93%    passed      9.58%
+  78  Otophryne_robusta                                     49.65%    failed      0.00%
+  79  Paracrinia_haswelli_26441                             33.79%    passed     17.58%
+  80  Pelobatidae_Pelobates_syriacus_MVZ_234650             58.05%    failed      0.00%
+  81  Pelodytidae_Pelodytes_ibericus_MVZ_186009             53.61%    failed      0.00%
+  82  Philoria_sphagnicola_25832                            37.87%    failed      0.16%
+  83  Phrynobatrachus_keniensis                             50.24%    failed      0.01%
+  84  Phrynomantis_annectens                                49.17%    failed      1.13%
+  85  Phyllomedusa_vallantii                                63.85%    failed      0.00%
+  86  Pipidae_Pipa_pipa_MVZ_247511                          53.91%    failed      0.00%
+  87  Pseudophryne_major_16479                              34.02%    passed     25.51%
+  88  Ptychadena_mascareniensis                             49.47%    failed      0.00%
+  89  Rheobatrachus_silus_7324                              36.69%    failed      0.00%
+  90  Rheobatrachus_vitellinus_105698                       36.69%    failed      0.00%
+  91  Rhinophrynidae_Rhinophrynus_dorsalis_MVZ_164756       54.63%    failed      0.00%
+  92  Scaphiophryne_brevis                                  49.34%    failed      0.00%
+  93  Scaphiopodidae_Spea_hammondii_MVZ_145187              51.86%    failed      0.00%
+  94  Spicospina_flammocaerulea_144371                      34.71%    passed     20.98%
+  95  Stefania_evansi_BPN1286                               27.56%    failed      0.00%
+  96  Stereocyclops_incrassatus                             49.33%    failed      0.00%
+  97  Taudactylus_liemi_50947                               36.69%    failed      0.54%
+  98  Uperoleia_laevigata_MM1227                            33.98%    passed      5.58%
+  99  Xenopus_tropicalis_genome                             21.20%    failed      3.39%
+WARNING: 14 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                 33.15%  87 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000191192 for long alignment
+Checking for duplicate sequences: done in 0.201043 secs using 99.7% CPU
+Reading input tree file Crown_Oz_ASTRAL.tre ... rooted tree
+
+NOTE: 910 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -43740904.207
+2. Current log-likelihood: -7597922.819
+3. Current log-likelihood: -7426119.699
+4. Current log-likelihood: -7426117.925
+5. Current log-likelihood: -7426117.211
+6. Current log-likelihood: -7426116.610
+7. Current log-likelihood: -7426116.078
+8. Current log-likelihood: -7426115.619
+9. Current log-likelihood: -7426115.186
+10. Current log-likelihood: -7426114.811
+11. Current log-likelihood: -7426114.450
+12. Current log-likelihood: -7426114.139
+13. Current log-likelihood: -7426113.837
+14. Current log-likelihood: -7426113.578
+15. Current log-likelihood: -7426113.324
+16. Current log-likelihood: -7426113.109
+17. Current log-likelihood: -7426112.895
+18. Current log-likelihood: -7426112.715
+19. Current log-likelihood: -7426112.533
+20. Current log-likelihood: -7426112.381
+21. Current log-likelihood: -7426112.226
+22. Current log-likelihood: -7426112.096
+23. Current log-likelihood: -7426112.082
+24. Current log-likelihood: -7426111.685
+25. Current log-likelihood: -7426111.526
+26. Current log-likelihood: -7426111.433
+27. Current log-likelihood: -7426111.334
+28. Current log-likelihood: -7426111.283
+29. Current log-likelihood: -7426111.220
+30. Current log-likelihood: -7426111.192
+31. Current log-likelihood: -7426111.164
+32. Current log-likelihood: -7426111.153
+Optimal log-likelihood: -7426111.145
+Rate parameters:  A-C: 1.20903  A-G: 3.29810  A-T: 1.06321  C-G: 0.89586  C-T: 4.31516  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.227  G: 0.220  T: 0.254
+Parameters optimization took 32 rounds (216.294 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -7426111.145
+Total tree length: 4.077
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 215.453 sec (0h:3m:35s)
+Total wall-clock time used: 216.979 sec (0h:3m:36s)
+Computing site concordance factor using likelihood...
+1224.957 sec
+Tree with site concordance factors written to sCF_gCF_GTR.cf.tree
+Annotated tree (best viewed in FigTree) written to sCF_gCF_GTR.cf.tree.nex
+Tree with branch IDs written to sCF_gCF_GTR.cf.branch
+Concordance factors per branch printed to sCF_gCF_GTR.cf.stat
+
+Analysis results written to: 
+  IQ-TREE report:                sCF_gCF_GTR.iqtree
+  Maximum-likelihood tree:       sCF_gCF_GTR.treefile
+  Screen log file:               sCF_gCF_GTR.log
+
+Date and Time: Thu Jun 15 11:39:13 2023

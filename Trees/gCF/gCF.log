@@ -1,0 +1,32 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Mac OS X 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    IanANU.local (SSE4.2, 16 GB RAM)
+Command: /Applications/iqtree-2.2.2.6-MacOSX/bin/iqtree2 -t Crown_Oz_ASTRAL.tre --gcf Crown_Oz_AllLoci2.trees --prefix gCF
+Seed:    915282 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun 15 10:19:58 2023
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading tree Crown_Oz_ASTRAL.tre ...
+rooted tree with 100 taxa and 199 branches
+Reading tree(s) file Crown_Oz_AllLoci2.trees ...
+389 tree(s) loaded (1 rooted and 388 unrooted)
+Trees have different number of taxa
+Computing gene concordance factor...
+0.097 sec
+Tree with concordance factors written to gCF.cf.tree
+Annotated tree (best viewed in FigTree) written to gCF.cf.tree.nex
+Tree with branch IDs written to gCF.cf.branch
+Concordance factors per branch printed to gCF.cf.stat
+WARNING: You probably want the --scfl option. The site concordance factor
+ implemented with the --scf option is based on parsimony (described here:
+ https://doi.org/10.1093/molbev/msaa106). It has since been superseded by a more
+ accurate likelihood-based approach which is implemented in the --scfl option, and
+ is described in the paper "Updated site concordance factors minimize effects of
+ homoplasy and taxon sampling" by Yu et al.. Please see the tutorial here for more
+ information: http://www.iqtree.org/doc/Concordance-Factor
+Date and Time: Thu Jun 15 10:19:59 2023
