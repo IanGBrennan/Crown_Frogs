@@ -24,7 +24,7 @@ color.by.CF <- function(phy, cf.file, terminal.color=NULL, col.palette="RdYlBu",
   # add root node, and apply an arbitrary value, this may just be funny behavior because of 
   cf.data[1,"gCF"] <- 100; # arbitrary CF value for 2nd node
   cf.data[1,"sCF"] <- 100;
-  cf.data <- rbind(cf.data, c(min(cf.data$child)-1, 100, NA,NA,NA,NA,NA)) # arbitrary CF value for root node
+  cf.data <- rbind(cf.data, c(min(cf.data$child)-1, 100, rep(NA, ncol(cf.data)-2))) # arbitrary CF value for root node
   
   # create a data frame of all the edges in the tree, listed by (parent, child) nodes
   all.edges <- data.frame(parent=phy$edge[,1], child=phy$edge[,2])
