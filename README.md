@@ -1,10 +1,10 @@
 # Australian Frogs
 Documentation for [*Populating a Continent: Phylogenomics Reveal the Timing of Australian Frog Diversification*](https://academic.oup.com/sysbio/advance-article-abstract/doi/10.1093/sysbio/syad048/7235049?redirectedFrom=fulltext)  
 
+Citation:
 ```
 Brennan, I.G., Lemmon, A.R., Lemmon, E.M., Hoskin, C.J., Donnellan, S.C., Keogh, J.S. 2023. Phylogenomics reveal the timing of Australian frog diversification.
 Systematic Biology. https://doi.org/10.1093/sysbio/syad048
-
 ```
 
 This project focuses on the phylogenetics and timing of Australian frog diversification. If you're here, you've probably already read the paper. But, in short, we ask three basic questions:  
